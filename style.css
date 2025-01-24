@@ -102,9 +102,7 @@ body::before {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-top: .5rem;
-    margin-bottom: 2rem;
-
+    margin: .5rem 0 1.5rem 0;
 }
 
 .container__input-limites {
@@ -114,8 +112,8 @@ body::before {
     border: none;
     color: #1875E8;
     padding: .5rem;
-    font-size: 1rem;
-    font-weight: 200;
+    font-size: 1.2rem;
+    font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
 
@@ -136,13 +134,14 @@ button {
 }
 
 .texto__limites {
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .texto__intentos {
+    color: #1875E8;
     margin-top: 1rem;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 400;
     text-align: center;
 }
